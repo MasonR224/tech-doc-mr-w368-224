@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding; 0;
+  }
+  
+  header {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    padding: 1rem;
+  }
+  
+  .image2 {
+    display: block;
+    margin: auto;
+  }
+  
+  html, body {
+    background: #29377E;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+  }
+  
+  header {
+    text-align: center;
+    margin: 10px;
+    font-size: 1.8em;
+  }
+  
+  .nav-link {
+    font-family: "Exo 2", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+    display: block;
+    color: white;
+    background-color: #FBAC18;
+    padding: 5px 25px;
+    border-bottom: solid 1px
+  }
+  
+  #main-doc {
+    position: absolute;
+    margin-left: 320px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: #29377E;
+    }
+  }
